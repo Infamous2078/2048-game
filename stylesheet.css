@@ -1,0 +1,86 @@
+* {
+    transition: all .2s linear;
+    text-transform: capitalize;
+}
+
+
+tr, td{
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+}
+
+td {
+    font-size: 70px;
+    font-weight: bold;
+    background-color: #cdc1b4;
+}
+
+th {
+    height: 80px;
+    font-size: 70px;
+    text-align: center;
+    background-color: white;
+    vertical-align: center;
+}
+table {
+    border: 10px solid black;
+    background-color: #bbada0;
+    border-spacing: 8px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://media.istockphoto.com/vectors/dark-blue-technology-hexagonal-\
+    background-vector-id1320467133?k=20&m=1320467133&s=612x612&w=0&h=SGIcbRaqUoav3cP5OBuiE9VPseRHoInP7EMNhgJDI6w=");
+    background-position: center;
+    background-size: cover;
+}
+
+.popup-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100vw;
+    position: fixed;
+    background: rgba(0,0,0,0.3);
+    transform: scale(0);
+}
+
+.popup-container .popup {
+    height: 150px;
+    margin: 0 10px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+}
+
+.popup-container .popup h3 {
+    color: #333;
+    font-size: 25px;
+}
+
+.popup-container .popup button {
+    height: 35px;
+    width: 120px;
+    background: #333;
+    color: #fff;
+    outline: none;
+    border-radius: 50px;
+    font-size: 17px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0,0,0,.3);
+}
+
+.popup-container .popup button:hover {
+    opacity: .8;
+}
+
+
